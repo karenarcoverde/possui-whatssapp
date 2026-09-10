@@ -29,7 +29,7 @@ try:
             resultados_whatsapp.append("Número Inválido/Vazio")
             continue
 
-        url = f"https://api.z-api.io/instances/{INSTANCIA_ID}/token/{CLIENT_TOKEN}/phone-exists/{numero_celular}"
+        url = f"https://api.z-api.io/instances/{INSTANCIA_ID}/token/{TOKEN_ID}/phone-exists/{numero_celular}"
 
         try:
             response = requests.get(url, headers=headers)
