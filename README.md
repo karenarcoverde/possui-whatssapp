@@ -2,5 +2,5 @@
 
 Bulk-check whether a cell phone number has WhatsApp or not using an API <br><br>
 
-o CLIENT_TOKEN precisa ser pego em segurança e gerar token  <br><br>
-TOKEN_ID e INSTANCIA_ID estão na página principal <br><br>
+The CLIENT_TOKEN must be retrieved from the Security tab and a token must be generated  <br><br>
+TOKEN_ID and INSTANCE_ID are on the main page <br><br>
